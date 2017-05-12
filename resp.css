@@ -1,3 +1,6 @@
+@media screen and (min-width:700px){
+
+
 body{
   background-color: #ffffff;
 }
@@ -43,6 +46,10 @@ header{
   width: 100%;
   height:70vh;
 }
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
 
 .imagenh{
   width:100%;
@@ -53,16 +60,16 @@ header{
   display: flex;
   justify-content: center;
 }
-.formu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+form{
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-bottom: 1%;
 }
 
 img{
   width: 20%;
   height: 10%;
+  margin: 5%;
 }
 
 .espdiv{
@@ -134,4 +141,160 @@ color: #ffffff;
 
 .space-between {
   justify-content: space-between;
+}
+
+.context{
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+}
+
+@media (min-width:0px) and (max-width:700px){
+.context{
+  display: none;
+
+}
+
+body{
+  background-color: #ffffff;
+}
+
+nav{
+  display: none;
+}
+
+ul {
+  background-color:#cc5819
+
+}
+
+li {
+
+  padding: 10px;
+  list-style: none;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  font-family: helvetica;
+
+}
+
+a:hover{
+  color:#899a45;
+
+}
+
+span{
+  color:#343a33;
+  margin: 0 100px;
+  font-weight: 900;
+  font-family: helvetica;
+
+}
+
+header{
+  width: 100%;
+  height:70vh;
+}
+
+.imagenh{
+  width:100%;
+  height: 62vh;
+}
+
+.videoc{
+  display: flex;
+  justify-content: center;
+}
+form{
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-bottom: 1%;
+}
+
+img{
+  width: 20%;
+  height: 10%;
+}
+
+.espdiv{
+  margin: 3%;
+}
+
+
+
+footer{
+background:#000000;
+height: 11vh;
+color: #ffffff;
+}
+
+.container{
+  width: 100%;
+}
+
+.containerbox {
+  display: flex;
+
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+
+.center {
+  justify-content: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.rlista{
+  width: 100%;
+}
+
 }
